@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="es-MX" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recicladora Jireh | Compra de Aires Acondicionados Descompuestos</title>
+  <meta name="description" content="Recicladora Jireh compra aires acondicionados usados o descompuestos. Pago al instante, recolección a domicilio y proceso rápido y seguro por WhatsApp.">
+  <meta name="keywords" content="recicladora jireh, vender aire acondicionado descompuesto, compra de minisplit usado, reciclaje de aire acondicionado, pago al instante aire viejo, recolección a domicilio">
+  <meta name="theme-color" content="#1B3A66">
+  <meta property="og:title" content="Recicladora Jireh | Convierte tu aire viejo en dinero">
+  <meta property="og:description" content="Compramos equipos de aire acondicionado en desuso o descompuestos. Te pagamos al instante y pasamos por él a donde estés.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="imagenes/site/equipos-patio.webp">
+  <meta property="og:locale" content="es_MX">
+
+  <link rel="icon" href="imagenes/site/logo-mark-jireh.png" type="image/png">
+  <link rel="apple-touch-icon" href="imagenes/site/logo-mark-jireh.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="loading">
+
+  <div id="loader" aria-hidden="true">
+    <div class="loader-ring"></div>
+    <img src="imagenes/site/logo-mark-jireh.png" alt="" class="loader-logo">
+    <span class="loader-brand">RECICLADORA JIREH</span>
+    <span class="loader-text">Cargando...</span>
+  </div>
+
+  <header id="navbar" role="banner">
+    <div class="container">
+      <div class="nav-inner">
+        <a href="#hero" class="nav-logo" aria-label="Recicladora Jireh inicio">
+          <img src="imagenes/site/logo-mark-jireh.png" alt="Isotipo de Recicladora Jireh" class="nav-logo-img">
+          <div class="nav-logo-copy">
+            <span>Recicladora</span>
+            <span>Jireh</span>
+          </div>
+        </a>
+
+        <nav aria-label="Navegación principal">
+          <ul class="nav-links">
+            <li><a href="#why">Por qué elegirnos</a></li>
+            <li><a href="#servicios">Equipos</a></li>
+            <li><a href="#proceso">Proceso</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <a href="https://wa.me/529996465382?text=Hola%2C%20quiero%20cotizar%20la%20venta%20de%20un%20equipo%20de%20aire%20acondicionado."
+           target="_blank" rel="noopener noreferrer"
+           class="btn-primary nav-cta">
+          <i class="fa-brands fa-whatsapp"></i>
+          Cotizar por WhatsApp
+        </a>
+
+        <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div id="mob-menu" aria-label="Menú móvil">
+      <a href="#why">Por qué elegirnos</a>
+      <a href="#servicios">Equipos</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#galeria">Galería</a>
+      <a href="#contacto">Contacto</a>
+      <a href="https://wa.me/529996465382?text=Hola%2C%20quiero%20cotizar%20la%20venta%20de%20un%20equipo%20de%20aire%20acondicionado." target="_blank" rel="noopener noreferrer">Cotizar ahora</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" aria-labelledby="hero-heading">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-vignette" aria-hidden="true"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+      <canvas id="hero-canvas" aria-hidden="true"></canvas>
+      <div class="hero-rays" aria-hidden="true">
+        <div class="hero-ray r1"></div>
+        <div class="hero-ray r2"></div>
+        <div class="hero-ray r3"></div>
+        <div class="hero-ray r4"></div>
+        <div class="hero-ray r5"></div>
+      </div>
+      <div class="hero-grain" aria-hidden="true"></div>
+      <div class="hero-scanline" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-brand" id="hero-brand">
+            <img src="imagenes/site/logo-mark-jireh.png" alt="" class="hero-brand-logo" aria-hidden="true">
+            <span class="hero-brand-name">RECICLADORA <strong>JIREH</strong></span>
+          </div>
+
+          <div class="hero-badge" id="hero-badge">
+            <div class="badge-dot"></div>
+            Compromiso con el medio ambiente
+          </div>
+
+          <h1 class="hero-title" id="hero-heading">
+            <span class="line"><span data-text="Convierte tu">Convierte tu</span></span>
+            <span class="line"><span class="accent type-target" data-text="aire viejo">aire viejo</span></span>
+            <span class="line"><span data-text="en dinero.">en dinero.</span></span>
+          </h1>
+
+          <p class="hero-sub" id="hero-sub">
+            Compramos equipos de aire acondicionado usados o descompuestos. En
+            <strong>Recicladora Jireh</strong> te pagamos al instante, pasamos por el equipo a
+            donde estés y cuidamos que los materiales vuelvan a tener valor.
+          </p>
+
+          <div class="hero-ctas" id="hero-ctas">
+            <a href="https://wa.me/529996465382?text=Hola%2C%20quiero%20cotizar%20la%20venta%20de%20mi%20aire%20acondicionado."
+               target="_blank" rel="noopener noreferrer" class="btn-primary">
+              <i class="fa-brands fa-whatsapp"></i>
+              Cotizar mi equipo
+            </a>
+            <a href="#servicios" class="btn-outline">
+              <i class="fa-solid fa-recycle"></i>
+              Ver equipos que compramos
+            </a>
+          </div>
+
+          <div class="hero-trust" id="hero-trust" aria-label="Beneficios principales">
+            <div class="trust-item">
+              <i class="fa-solid fa-hand-holding-dollar"></i>
+              Pago al instante
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <i class="fa-solid fa-truck-fast"></i>
+              Pasamos por él
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <i class="fa-solid fa-shield-halved"></i>
+              Proceso rápido y seguro
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-cue" aria-hidden="true">
+        <div class="scroll-mouse">
+          <div class="scroll-mouse-dot"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="why" aria-labelledby="why-heading">
+      <div class="section-particles" aria-hidden="true"></div>
+      <div class="container">
+        <div class="why-header">
+          <div class="reveal">
+            <div class="label">Por qué elegirnos</div>
+            <h2 class="why-quote" id="why-heading">
+              Lo que ya no usas, <em>para nosotros y el planeta sí tiene valor.</em>
+            </h2>
+          </div>
+          <p class="why-sub reveal d2">
+            Hacemos que vender tu aire acondicionado sea claro, rápido y responsable: cotizas por
+            WhatsApp, coordinamos la recolección y recibes tu pago sin vueltas.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div class="f-card reveal">
+            <div class="f-num" aria-hidden="true">01</div>
+            <div class="f-icon" aria-hidden="true"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+            <h3>Pago al instante</h3>
+            <p>Compramos tu equipo usado o descompuesto y realizamos el pago al momento de la operación.</p>
+          </div>
+
+          <div class="f-card reveal d1">
+            <div class="f-num" aria-hidden="true">02</div>
+            <div class="f-icon" aria-hidden="true"><i class="fa-solid fa-truck-fast"></i></div>
+            <h3>Vamos por él</h3>
+            <p>Coordinamos la recolección a domicilio para que no tengas que mover equipos pesados.</p>
+          </div>
+
+          <div class="f-card reveal d2">
+            <div class="f-num" aria-hidden="true">03</div>
+            <div class="f-icon" aria-hidden="true"><i class="fa-solid fa-shield-halved"></i></div>
+            <h3>Rápido y seguro</h3>
+            <p>El proceso está pensado para cotizar, acordar y retirar el equipo de forma simple.</p>
+          </div>
+
+          <div class="f-card reveal d3">
+            <div class="f-num" aria-hidden="true">04</div>
+            <div class="f-icon" aria-hidden="true"><i class="fa-solid fa-leaf"></i></div>
+            <h3>Compromiso ambiental</h3>
+            <p>Impulsamos la reutilización de materiales y ayudamos a evitar contaminación innecesaria.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios" aria-labelledby="serv-heading">
+      <div class="container">
+        <div class="ambientes-top">
+          <div class="reveal">
+            <div class="label">Equipos que compramos</div>
+            <h2 class="section-title" id="serv-heading">
+              Dale salida a tu equipo<br>
+              <span class="gold">usado o descompuesto</span>
+            </h2>
+            <p class="section-copy">
+              Cotizamos equipos de aire acondicionado en desuso con atención directa por WhatsApp.
+            </p>
+          </div>
+          <div class="reveal d2">
+            <span class="ambiente-pill">Compra y reciclaje responsable</span>
+          </div>
+        </div>
+
+        <div class="ambientes-grid">
+          <div class="amb-card reveal">
+            <img class="amb-img" src="imagenes/site/equipos-patio.webp" alt="Minisplits usados y equipos de aire acondicionado listos para reciclaje">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap" aria-hidden="true"><i class="fa-solid fa-wind"></i></div>
+              <h3>Minisplit de ventana</h3>
+              <p>Compramos unidades de ventana usadas, dañadas o en desuso.</p>
+              <div class="amb-temp">Cotización por WhatsApp</div>
+            </div>
+          </div>
+
+          <div class="amb-card reveal d1">
+            <img class="amb-img" src="imagenes/site/equipos-apilados.webp" alt="Equipos de aire acondicionado usados apilados para compra y reciclaje">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap" aria-hidden="true"><i class="fa-solid fa-snowflake"></i></div>
+              <h3>Minisplit de piso</h3>
+              <p>Retiramos equipos de piso para recuperar sus materiales de forma responsable.</p>
+              <div class="amb-temp">Pasamos por él</div>
+            </div>
+          </div>
+
+          <div class="amb-card reveal d2">
+            <img class="amb-img" src="imagenes/site/flyer-servicio.webp" alt="Flyer de Recicladora Jireh con equipo de aire acondicionado descompuesto">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap" aria-hidden="true"><i class="fa-solid fa-fan"></i></div>
+              <h3>Minisplit de techo</h3>
+              <p>También cotizamos equipos de techo usados o descompuestos.</p>
+              <div class="amb-temp">Pago al instante</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proceso" aria-labelledby="proceso-heading">
+      <div class="proceso-bg" aria-hidden="true"></div>
+      <div class="proceso-overlay" aria-hidden="true"></div>
+      <div class="container">
+        <div class="proceso-header reveal">
+          <div class="label">Cómo funciona</div>
+          <h2 class="section-title" id="proceso-heading">
+            Vender tu aire es <span class="gold">así de simple</span>
+          </h2>
+          <p>Tres pasos claros para cotizar, coordinar y recibir tu pago.</p>
+        </div>
+
+        <div class="proceso-grid">
+          <div class="proceso-step reveal">
+            <div class="step-number">Paso 01</div>
+            <h3>Escríbenos</h3>
+            <p>Envía por WhatsApp la información del equipo que quieres vender: tipo, estado y fotos si las tienes.</p>
+          </div>
+
+          <div class="proceso-step reveal d1">
+            <div class="step-number">Paso 02</div>
+            <h3>Cotizamos y coordinamos</h3>
+            <p>Revisamos la información, acordamos la compra y coordinamos la recolección a domicilio.</p>
+          </div>
+
+          <div class="proceso-step reveal d2">
+            <div class="step-number">Paso 03</div>
+            <h3>Retiro y pago</h3>
+            <p>Pasamos por el equipo y realizamos el pago al instante para cerrar el proceso rápido y seguro.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="producto" aria-labelledby="prod-heading">
+      <div class="container">
+        <div class="producto-wrap">
+          <div class="reveal">
+            <div class="label">Compra especializada</div>
+            <h2 class="section-title" id="prod-heading">
+              También compramos equipos<br>
+              <span class="gold">industriales y chillers</span>
+            </h2>
+            <p class="producto-lead">
+              Si tu equipo ya no funciona, está incompleto o quedó fuera de operación, Recicladora
+              Jireh evalúa su valor para recuperar materiales útiles y reducir desperdicio.
+            </p>
+
+            <ul class="feature-rows" aria-label="Equipos adicionales que compra Recicladora Jireh">
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-industry"></i></div>
+                <div>
+                  <h4>Equipos industriales</h4>
+                  <p>Cotización para unidades de mayor capacidad, en desuso o descompuestas.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-temperature-arrow-down"></i></div>
+                <div>
+                  <h4>Chillers</h4>
+                  <p>Evaluamos equipos de enfriamiento para compra y reciclaje responsable.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-recycle"></i></div>
+                <div>
+                  <h4>Materiales con valor</h4>
+                  <p>Lo que ya no usas puede reincorporarse a una cadena de aprovechamiento.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-seedling"></i></div>
+                <div>
+                  <h4>Menos contaminación</h4>
+                  <p>Promovemos un futuro mejor evitando que equipos abandonados contaminen.</p>
+                </div>
+              </li>
+            </ul>
+
+            <div class="specs-bar" role="list" aria-label="Resumen de equipos">
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val"><i class="fa-solid fa-wind"></i></span>
+                <span class="spec-name">Ventana</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val"><i class="fa-solid fa-snowflake"></i></span>
+                <span class="spec-name">Piso</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val"><i class="fa-solid fa-fan"></i></span>
+                <span class="spec-name">Techo</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val"><i class="fa-solid fa-industry"></i></span>
+                <span class="spec-name">Industrial</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="reveal d2">
+            <div class="panel-scene">
+              <img class="panel-photo" src="imagenes/site/equipos-apilados.webp" alt="Aires acondicionados usados recolectados para compra y reciclaje">
+              <div class="p-badge pb-tl" aria-hidden="true">
+                <div class="p-badge-dot"></div>
+                Compra directa
+              </div>
+              <div class="p-badge pb-br" aria-hidden="true">
+                <i class="fa-solid fa-leaf"></i>
+                Reutilizamos materiales
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="stats" aria-label="Números de Recicladora Jireh">
+      <div class="stats-bg" aria-hidden="true"></div>
+      <div class="stats-overlay" aria-hidden="true"></div>
+      <div class="container">
+        <div class="stats-grid reveal">
+          <div class="stat-card">
+            <strong data-count="5">0</strong>
+            <span>tipos de equipos que compramos</span>
+          </div>
+          <div class="stat-card">
+            <strong data-count="3">0</strong>
+            <span>pasos para vender tu aire</span>
+          </div>
+          <div class="stat-card">
+            <strong data-count="4">0</strong>
+            <span>compromisos de servicio</span>
+          </div>
+          <div class="stat-card">
+            <strong data-count="1">0</strong>
+            <span>contacto directo por WhatsApp</span>
+          </div>
+        </div>
+
+        <div class="slogan-band reveal d2">
+          <p class="slogan-text">
+            No lo tires.<br class="br-mobile-hide">
+            <span class="gold">Véndelo y dale una segunda vida.</span>
+          </p>
+          <a href="https://wa.me/529996465382?text=Hola%2C%20quiero%20cotizar%20la%20venta%20de%20un%20equipo%20de%20aire%20acondicionado."
+             target="_blank" rel="noopener noreferrer" class="btn-primary">
+            <i class="fa-brands fa-whatsapp"></i>
+            Escríbenos ahora
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="sectores" aria-labelledby="sec-heading">
+      <div class="section-particles section-particles-alt" aria-hidden="true"></div>
+      <div class="container">
+        <div class="sectores-hdr reveal">
+          <div class="label">Impacto ambiental</div>
+          <h2 class="section-title" id="sec-heading">
+            Menos abandono,<br>
+            <span class="gold">más materiales reutilizados</span>
+          </h2>
+          <p>La compra de equipos en desuso ayuda a que sus componentes tengan un destino más responsable.</p>
+        </div>
+
+        <div class="sectores-grid" role="list">
+          <div class="sector-card reveal" role="listitem">
+            <img class="sector-img" src="imagenes/site/equipos-patio.webp" alt="Equipos de aire acondicionado recuperados para reciclaje">
+            <div class="sector-overlay">
+              <i class="fa-solid fa-recycle sector-icon" aria-hidden="true"></i>
+              <h3>Reutilizamos materiales</h3>
+            </div>
+          </div>
+          <div class="sector-card reveal d1" role="listitem">
+            <img class="sector-img" src="imagenes/site/flyer-identidad.webp" alt="Mensaje ambiental de Recicladora Jireh">
+            <div class="sector-overlay">
+              <i class="fa-solid fa-earth-americas sector-icon" aria-hidden="true"></i>
+              <h3>Evitamos contaminación</h3>
+            </div>
+          </div>
+          <div class="sector-card reveal d2" role="listitem">
+            <img class="sector-img" src="imagenes/site/equipos-apilados.webp" alt="Aires acondicionados en desuso recolectados por Recicladora Jireh">
+            <div class="sector-overlay">
+              <i class="fa-solid fa-leaf sector-icon" aria-hidden="true"></i>
+              <h3>Promovemos futuro mejor</h3>
+            </div>
+          </div>
+          <div class="sector-card reveal d3" role="listitem">
+            <img class="sector-img" src="imagenes/site/flyer-servicio.webp" alt="Recicladora Jireh compra aire acondicionado descompuesto">
+            <div class="sector-overlay">
+              <i class="fa-solid fa-handshake sector-icon" aria-hidden="true"></i>
+              <h3>Compra con propósito</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeria" aria-label="Galería de equipos reales">
+      <div class="container">
+        <div class="galeria-hdr reveal">
+          <div class="label">Galería real</div>
+          <h2 class="section-title">
+            Equipos que vuelven<br>
+            <span class="gold">a tener valor</span>
+          </h2>
+          <p class="section-copy">
+            Imágenes reales del material de referencia proporcionado para el proyecto.
+          </p>
+        </div>
+
+        <div class="galeria-grid">
+          <figure class="galeria-item galeria-item-lg reveal">
+            <img src="imagenes/site/equipos-patio.webp" alt="Conjunto de equipos de aire acondicionado usados listos para reciclaje">
+            <figcaption>Equipos recolectados para recuperación de materiales.</figcaption>
+          </figure>
+          <figure class="galeria-item reveal d1">
+            <img src="imagenes/site/equipos-apilados.webp" alt="Aires acondicionados usados y componentes descompuestos apilados">
+            <figcaption>Unidades usadas o descompuestas con valor recuperable.</figcaption>
+          </figure>
+          <figure class="galeria-item reveal d2">
+            <img src="imagenes/site/flyer-identidad.webp" alt="Flyer de Recicladora Jireh con beneficios de pago y recolección">
+            <figcaption>Mensaje central: pago al instante y recolección.</figcaption>
+          </figure>
+          <figure class="galeria-item reveal d3">
+            <img src="imagenes/site/flyer-servicio.webp" alt="Flyer de Recicladora Jireh para vender aire acondicionado descompuesto">
+            <figcaption>Información de compra de equipos descompuestos.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact-hdr reveal">
+          <div class="label">Contacto</div>
+          <h2 class="section-title" id="contact-heading">
+            Cotiza la venta de<br>
+            <span class="gold">tu equipo por WhatsApp</span>
+          </h2>
+          <p>Comparte los datos de tu aire acondicionado y coordinamos la compra y recolección.</p>
+        </div>
+
+        <div class="contact-box reveal">
+          <div class="contact-info">
+            <h3>Atención directa</h3>
+            <p class="ci-sub">Compra y reciclaje de aires acondicionados usados o descompuestos.</p>
+
+            <ul class="ci-list">
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true"><i class="fa-solid fa-truck-fast"></i></div>
+                <div class="ci-body">
+                  <h4>Recolección</h4>
+                  <p>Vamos por el equipo a donde estés, previa coordinación por WhatsApp.</p>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true"><i class="fa-solid fa-phone"></i></div>
+                <div class="ci-body">
+                  <h4>Teléfono / WhatsApp</h4>
+                  <p><a href="tel:+529996465382">999 646 5382</a></p>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true"><i class="fa-brands fa-whatsapp"></i></div>
+                <div class="ci-body">
+                  <h4>Cotización</h4>
+                  <p>Envíanos el tipo de equipo, estado y fotos si las tienes.</p>
+                  <a href="https://wa.me/529996465382?text=Hola%2C%20quiero%20cotizar%20la%20venta%20de%20mi%20aire%20acondicionado."
+                     target="_blank" rel="noopener noreferrer" class="ci-wa-link">
+                    Abrir chat
+                  </a>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="ci-body">
+                  <h4>Ubicación</h4>
+                  <p>La recolección se coordina a domicilio directamente por WhatsApp.</p>
+                </div>
+              </li>
+            </ul>
+
+            <div class="map-placeholder" aria-label="Cobertura coordinada por WhatsApp">
+              <i class="fa-solid fa-map-location-dot"></i>
+              <span>La recolección se coordina directamente por WhatsApp.</span>
+            </div>
+          </div>
+
+          <div class="contact-form-wrap">
+            <h3>Solicitar cotización</h3>
+            <form id="wa-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="f-name">Nombre</label>
+                  <input type="text" id="f-name" class="form-control" placeholder="Tu nombre" required autocomplete="name">
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="f-interest">Equipo</label>
+                  <select id="f-interest" class="form-control">
+                    <option>Minisplit de ventana</option>
+                    <option>Minisplit de piso</option>
+                    <option>Minisplit de techo</option>
+                    <option>Equipo industrial</option>
+                    <option>Chiller</option>
+                    <option>Otro equipo de aire acondicionado</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="f-msg">Detalles</label>
+                <textarea id="f-msg" class="form-control" rows="4" required placeholder="Describe el estado del equipo y dónde habría que recogerlo."></textarea>
+              </div>
+              <button type="submit" class="form-submit">
+                <i class="fa-brands fa-whatsapp"></i>
+                Enviar a WhatsApp
+              </button>
+              <p class="form-note">El formulario abre WhatsApp con tu mensaje listo para enviar.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">
+          <img src="imagenes/site/logo-mark-jireh.png" alt="Isotipo de Recicladora Jireh">
+          <div>
+            <span>Recicladora Jireh</span>
+            <small>Compromiso con el medio ambiente</small>
+          </div>
+        </div>
+        <div class="footer-links" aria-label="Enlaces de navegación">
+          <a href="#why">Por qué elegirnos</a>
+          <a href="#servicios">Equipos</a>
+          <a href="#proceso">Proceso</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+        <div class="footer-socials">
+          <a href="https://wa.me/529996465382" target="_blank" rel="noopener noreferrer" class="footer-soc" aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+      <p class="footer-copy">
+        &copy; <span id="year"></span> Recicladora Jireh. Todos los derechos reservados.
+      </p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/529996465382?text=Hola%2C%20visit%C3%A9%20su%20sitio%20web%20y%20quiero%20cotizar%20la%20venta%20de%20mi%20aire%20acondicionado."
+     target="_blank" rel="noopener noreferrer"
+     class="wa-btn" aria-label="Contactar por WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
